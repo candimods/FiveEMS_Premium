@@ -167,8 +167,5 @@ where appropriate on your website, blog, or download.
 FiveEMS Terms and Conditions    Do not share the drive links they are unique to you  , you may use the FiveEMS Premium and Legacy versions in 5M, on your server or  you are a trusted member of a server ad wish to share or donte the file, you are responsible for the files. You may not resale, they may not resale, you may collaborate in this discord only. You may use on your stream and take screenshot and video showcases, link to my server here, you are not allowed to upload this file and claim it as your own on any site, server, local, drives, cloud drives, or otherwise.
 Every owner must have @FiveEMS Premium User tag for Premium Version or @FiveEMS User tag for Legacy Version  to utilize this mod, its your license, removal of the tag or leaving the server suspends your access to this pack.  if you need help  post in the channels below for assistance.   DO NOT LEAK OR SHARE YOUR FILES WITH ANYONE CONTACT AN ADMIN IF YOU NEED HELP OF HAVE ANY QUESTIONS For help #support or #🚒-safd-general.  Users of the legacy free edition must abide by the same rules.  [ex. you can only get support or help from someone with the same tags as you. ]
 
-Other Developers may link to the original github, they may no repackage, post or claim this mod as their own, credit the authors and link to the mod.
-
-The is a wiki page on github which explains how to make your ambulance compatible with this mod.
 
 You are not allowed to upload this file and claim it as your own on any site, server, local, drives, cloud drives, or otherwise.  you are NOT allowed to UNLOCK this file. texture devs may link to public downloads only
