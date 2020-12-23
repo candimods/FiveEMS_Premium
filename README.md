@@ -87,8 +87,8 @@ https://youtu.be/lNZhb-iV0ak
 
 1. Stryker M1 Stretcher 
 2. Stryker M1 Coroner Stretcher :new:
-3. Ferno Stretcher - buggy
-4. Ferno Coroner Stretcher - buggy 
+3. Ferno Stretcher - crashes :broken_heart:
+4. Ferno Coroner Stretcher - crashes :broken_heart:
 5. Coronavirus Stretcher 
 6. Rugged MX Pro Stretcher - buggy 
 7. Basket Stretcher :new:
