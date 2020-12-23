@@ -1,13 +1,13 @@
-# Development FiveEMS Beta v1.6
+# FiveEMS Premium v1.7
+for Premium Only
 This is an Expansive mod meant to bring realisim to EMS Roleplay. 
 Thanks to the contributing devs without you this mod would not be possible
 
-**For Patreon Subsribers only**
 To unlock this mod please create a support ticket.
 
-:new: features in version 1.6b
-1. menu white list, fix bug where menu opens up in vehicle, improve sync all in the config.lua
-its not neccessary to updatee if you dont need whitlist features
+:new: features in version 1.7
+> 1. :fire: License key is now required, one per server
+> 2. menu white list, fix bug where menu opens up in vehicle, improve sync 
 
 to update to newest version remove previous install and install new files. clear your cache of FiveEMS files and restart the resource, resource Folder **Must be Named FiveEMS to work** 
 
