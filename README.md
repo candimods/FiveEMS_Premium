@@ -137,6 +137,9 @@ FiveEMS EUP Clothing by Novo get it here https://discord.gg/cGGnRpw
 Get latest releass in relasses tab, development under main branch
 1. Drag and Drop <p color='red'>FiveEMS</p> folder fo your resources folder, rename or make sure the folder is named <p color='red'>FiveEMS</p>
 <B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
+
+```**Install for ESX Servers** remove UI folder and the entries in fxmanifest.lua, load the items.sql and the items can now be pulled from players item inventory and returned.```
+
 2. edit the config.lua and add perms 
 3. add start ```FiveEMS``` to your server.cfg
 Please remove any previous versions of this script
