@@ -16,6 +16,44 @@ to update to newest version remove previous install and install new files. clear
 2. script will now place the closed ped or a.i on the stretcher, for those who want to RP with the ped or on FivePD servers
 Ped placement is buggy this is to be expected if you play lspdfr.
 
+# Install 
+Get latest releass in relasses tab, development under main branch
+1. Drag and Drop <p color='red'>FiveEMS</p> folder fo your resources folder, rename or make sure the folder is named <p color='red'>FiveEMS</p>
+<B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
+
+```**Install for ESX Servers** remove UI folder and the entries in fxmanifest.lua, load the items.sql and the items can now be pulled from players item inventory and returned.```
+
+2. edit the config.lua and add perms 
+3. add start ```FiveEMS``` to your server.cfg
+Please remove any previous versions of this script
+4. Press ```F7``` to open menu, edit controls in config.lua 
+5. walk up to any compatible vehicle or stretcher to get a menu display option.
+ enjoy! 
+
+follow for updates!!!
+for support and compatible ambulances and stretchers please visit https://discord.io/candimods
+
+# Config.lua 
+Set up your config to look similar to this
+```lua
+Config              = {}
+Config.Key = 'XXXXXX' -- enter the key given you by staff
+
+Config.WhiteListOnly = {
+  ['Spawn_Stretcher'] = true, -- Can anyone spawn a stretcher or only the whitelisted players ?
+  ['Take_Bed'] = true,
+  ['Do_Action'] = true,
+}
+
+Config.WhiteList     = {
+  ['ip:127.0.0.1'] = true,
+  ['licence:123']  = true,
+  ['xbl:123']      = true,
+  ['live:123']     = true,
+  ['discord:123'] = true, 
+  ['steam:123']    = true,
+--- This area is for staff id enter whatever id you want you van get this from txadmin
+```
 # Five EMS Menu
 F7 Menu, change keys and add more stretchers and vehicles in the config.lua.
 will spawn compatibile stretchers, you can also change menu location on your screen and the design.
@@ -134,22 +172,6 @@ Here is an example https://forum.cfx.re/t/release-c-vehicle-attachment-and-tow-r
 FiveEMS EUP Clothing by Novo get it here https://discord.gg/cGGnRpw
 
 
-# Install 
-Get latest releass in relasses tab, development under main branch
-1. Drag and Drop <p color='red'>FiveEMS</p> folder fo your resources folder, rename or make sure the folder is named <p color='red'>FiveEMS</p>
-<B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
-
-```**Install for ESX Servers** remove UI folder and the entries in fxmanifest.lua, load the items.sql and the items can now be pulled from players item inventory and returned.```
-
-2. edit the config.lua and add perms 
-3. add start ```FiveEMS``` to your server.cfg
-Please remove any previous versions of this script
-4. Press ```F7``` to open menu, edit controls in config.lua 
-5. walk up to any compatible vehicle or stretcher to get a menu display option.
- enjoy! 
-
-follow for updates!!!
-for support and compatible ambulances and stretchers please visit https://discord.io/candimods
 
 
 # CandiMods Terms and Conditions 
