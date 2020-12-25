@@ -14,7 +14,7 @@ to update to newest version remove previous install and install new files. clear
 
 1. new chat commands  /delhaztent and /delbluetent use this to delete the tents!!
 2. script will now place the closed ped or a.i on the stretcher, for those who want to RP with the ped or on FivePD servers
-
+Ped placement is buggy this is to be expected if you play lspdfr.
 
 # Five EMS Menu
 F7 Menu, change keys and add more stretchers and vehicles in the config.lua.
