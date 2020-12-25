@@ -34,7 +34,7 @@ follow for updates!!!
 for support and compatible ambulances and stretchers please visit https://discord.io/candimods
 
 # Config.lua 
-Set up your config to look similar to this
+Set up your config, input your license key, whitelist ids, and set wheather you want to use perms or set the script to public use.
 ```lua
 Config              = {}
 Config.Key = 'XXXXXX' -- enter the key given you by staff
