@@ -3,7 +3,7 @@ for Premium Only
 This is an Expansive mod meant to bring realisim to EMS Roleplay. 
 Thanks to the contributing devs without you this mod would not be possible
 
-To unlock this mod please create a support ticket.
+To unlock this mod get it here
 https://store.candimods.com
 
 :new: features in version 1.7
