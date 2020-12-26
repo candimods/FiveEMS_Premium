@@ -1,10 +1,10 @@
-# FiveEMS Premium v1.7
+# FiveEMS Premium beta v1.7
 for Premium Only
 This is an Expansive mod meant to bring realisim to EMS Roleplay. 
-Thanks to the contributing devs without you this mod would not be possible
+Thanks to the contributing devs without you this mod would not be possible.
+This mod is still in Beta but is in a stage where it can be released to the general public for improvements
 
-To unlock this mod get it here
-https://store.candimods.com
+To unlock this mod get it here https://store.candimods.com
 
 :new: features in version 1.7
 > 1. :fire: License key is now required, one per server
@@ -14,17 +14,18 @@ to update to newest version remove previous install and install new files. clear
 
 1. new chat commands  /delhaztent and /delbluetent use this to delete the tents!!
 2. script will now place the closed ped or a.i on the stretcher, for those who want to RP with the ped or on FivePD servers
-Ped placement is buggy this is to be expected if you play lspdfr.
+Ped placement is buggy this is to be expected if you play lspdfr. working on a fix for this.
+
 
 # Install 
-Get latest releass in relasses tab, development under main branch
+
 1. Drag and Drop <p color='red'>FiveEMS</p> folder fo your resources folder, rename or make sure the folder is named <p color='red'>FiveEMS</p>
 <B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
 
 ```**Install for ESX Servers** remove UI folder and the entries in fxmanifest.lua, load the items.sql and the items can now be pulled from players item inventory and returned.```
 
-2. edit the config.lua and add perms 
-3. add start ```FiveEMS``` to your server.cfg
+2. edit the config.lua and add perms/keys
+3. add ``` ensure FiveEMS``` to your server.cfg
 Please remove any previous versions of this script
 4. Press ```F7``` to open menu, edit controls in config.lua 
 5. walk up to any compatible vehicle or stretcher to get a menu display option.
