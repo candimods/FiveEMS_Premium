@@ -23,8 +23,8 @@ Ped placement is buggy this is to be expected if you play lspdfr. working on a f
 1. Drag and Drop <p color='red'>FiveEMS</p> folder fo your resources folder, rename or make sure the folder is named <p color='red'>FiveEMS</p>
 <B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
 
-```lua
-**Install for ESX Servers** remove UI folder and the entries in fxmanifest.lua that refer to the UI, also may need to adjust or add es_extended reference, now load the items.sql and the items can now be pulled from players item inventory and returned. because inventory is mangaged via this system ESX servers dont get an F7 menu only the stretcher menu and Vehicie UI Menu will work for them.```
+`
+**Install for ESX Servers** remove UI folder and the entries in fxmanifest.lua that refer to the UI, also may need to adjust or add es_extended reference, now load the items.sql and the items can now be pulled from players item inventory and returned. because inventory is mangaged via this system ESX servers dont get an F7 menu only the stretcher menu and Vehicie UI Menu will work for them.`
 
 2. edit the config.lua and add perms/keys
 3. add ``` ensure FiveEMS``` to your server.cfg
