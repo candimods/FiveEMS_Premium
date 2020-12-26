@@ -5,6 +5,7 @@ Thanks to the contributing devs without you this mod would not be possible.
 This mod is still in Beta but is in a stage where it can be released to the general public for improvements
 
 To unlock this mod get it here https://store.candimods.com
+also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
 
 :new: features in version 1.7
 > 1. :fire: License key is now required, one per server
