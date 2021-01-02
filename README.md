@@ -1,4 +1,4 @@
-# FiveEMS Premium beta v1.7
+# FiveEMS Premium beta v1.7b
 for Premium Only
 This is an Expansive mod meant to bring realisim to EMS Roleplay. 
 Thanks to the contributing devs without you this mod would not be possible.
@@ -7,7 +7,7 @@ This mod is still in Beta but is in a stage where it can be released to the gene
 To unlock this mod get it here https://store.candimods.com
 also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
 
-:new: features in version 1.7
+:new: features in version 1.7b
 > 1. :fire: License key is now required, one per server
 > 2. menu white list, fix bug where menu opens up in vehicle, improve sync 
 
