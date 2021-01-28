@@ -39,13 +39,15 @@ for support and compatible ambulances and stretchers please visit https://discor
 # Config.lua 
 Set up your config, input your license key, whitelist ids, and set wheather you want to use perms or set the script to public use.
 ```lua
-Config              = {}
-Config.Key = 'XXXXXX' -- enter the key given you by staff
+Config              = {} -- nothing goes here
+Config.Ver = 'Loaded version 1.7a FiveEMS - Developed and Licensed by Candi Mods Developpement' -- don't edit this 
+Config.Key = 'null'  -- put your key here
 
 Config.WhiteListOnly = {
-  ['Spawn_Stretcher'] = true, -- Can anyone spawn a stretcher or only the whitelisted players ?
-  ['Take_Bed'] = true,
-  ['Do_Action'] = true,
+  ['Spawn_Stretcher'] = false, -- Can anyone spawn a stretcher or only the whitelisted players ?
+  ['Take_Bed'] = false,  -- who can take the stretcher 
+  ['Do_Action'] = false, -- whitelist ems options in stretcher menu
+  ['Do_Anim'] = false, -- whitelist patient options in stretcher menu
 }
 
 Config.WhiteList     = {
@@ -53,10 +55,104 @@ Config.WhiteList     = {
   ['licence:123']  = true,
   ['xbl:123']      = true,
   ['live:123']     = true,
-  ['discord:123'] = true, 
+  ['discord:123']  = true,
   ['steam:123']    = true,
---- This area is for staff id enter whatever id you want you van get this from txadmin
+}
 ```
+# Adding More Vehilces and Editing Keys
+```lua
+Config.Hash = {
+	{hash = `20f450ambo`, detection = 2.4, depth = -1.0, height = 0.0},
+	{hash = `16ramambo`, detection = 2.4, depth = -1.0, height = 0.0},
+	{hash = `safdm2`, detection = 2.4, depth = -1.0, height = 0.0},
+	{hash = `ambulance`, detection = 2.4, depth = -1.0, height = 0.0},
+	{hash = `safdm3`, detection = 2.4, depth = -1.0, height = 0.0},
+	{hash = `safr2`, detection = 2.4, depth = -1.0, height = 0.0},
+	{hash = `emsgator`, detection = 2.4, depth = -1.0, height = 0.0},
+	{hash = `polmav`, detection = 2.0, depth = 1.0, height = -1.0},
+	{hash = `ec135med`, detection = 3.0, depth = -0.5, height = -0.25},
+	{hash = `airambulance`, detection = 3.0, depth = -1.25, height = -0.25},
+	{hash = `h145c`, detection = 3.0, depth = -1.25, height = -0.10},
+}
+Config.ItemsVeh = {
+  -- {hash = `name of vehicle`, item = 'es_extend item name', remove = how many item to remove on use},
+  {hash = `Stretcher`,          label = 'Stretcher', type = 'veh',  item = 'stretcher',  remove = 1}, -- When using the stretcher  item, it will spawn a Stretcher vehicle and remove 1x item
+  {hash = `stryker_M1`,         label = 'M1 Isolation', type = 'veh',  item = 'stretcher2', remove = 1},
+  {hash = `stryker_M1_coroner`, label = 'M1 Coroner', type = 'veh',  item = 'stretcher3', remove = 1},
+  {hash = `prop_ld_binbag_01`,  label = 'Decon Tent', type = 'prop', item = 'stretcher4', remove = 1}, -- When using the stretcher  item, it will spawn a prop_ld_binbag_01 prop and remove 1x item
+  {hash = `mxpro`,                    label = 'MxPro', type = 'veh',  item = 'stretcher5', remove = 1},
+  {hash = `stretcher_basket`,      label = 'basket', type = 'veh',  item = 'stretcher6', remove = 1},
+  {hash = `prop_gazebo_02`,  label = 'Blue Tent', type = 'prop', item = 'stretcher7', remove = 1},
+  -- {hash = `ferno`,      label = 'Ferno', type = 'veh',  item = 'stretcher7', remove = 1}, -- dont spawn will crash
+  -- {hash = `fernocoroner`,      label = 'Ferno Coroner', type = 'veh',  item = 'stretcher7', remove = 1}, -- dont spawn will crash
+}
+
+Config.Press = {
+	open_spawner = Keys["F7"],
+	open_menu = Keys["Y"],
+	take_bed = Keys["E"],
+	do_action = Keys["E"],
+	out_vehicle_bed = Keys["E"],
+	release_bed = Keys["B"],
+	in_vehicle_bed = Keys["E"],
+	go_out_bed = Keys["E"],
+	open_close_doors = Keys["E"],
+	extend_powerload = Keys["Z"],
+	take_stow_stretcher = Keys["G"],
+	extra_1 = Keys["CAPS"],
+	lights = Keys["ENTER"],
+}
+
+
+Config.Language = {
+	name_hospital = 'Stretcher',
+	open_menu = 'Press ~b~E',
+	do_action = 'Press ~INPUT_CONTEXT~ to interact with stretcher',
+	take_bed = "Press ~INPUT_CONTEXT~ to take stretcher",
+	release_bed = "Press ~INPUT_SPECIAL_ABILITY_SECONDARY~ to drop stretcher",
+	in_vehicle_bed = "Press ~INPUT_CONTEXT~ to stow stretcher",
+	out_vehicle_bed = "Press ~INPUT_CONTEXT~ to retrieve stretcher",
+	go_out_bed = "Get Out of Bed",
+	delete_bed = "Remove Bed",
+	fold_bed = "Fold Bed",
+	toggle_iv = "Toggle IV Pole",
+	toggle_lp15 = "Toggle Lifepak15 Defib",
+	toggle_lucas = "Toggle Lucas 3",
+	toggle_backboard = "Toggle Backboard",
+	toggle_scoop = "Toggle scoop",
+	toggle_seat = "Toggle Headrest",
+	lit_1 = "Bed without matela",
+	anim = {
+		spawn_command = "Litter",
+		lie_back = "Lie on back",
+		sit_up = "Sit up",
+		sit_right = "Sit on the right side",
+		sit_left = "Sit on left side",
+		convulse = "Recieve CPR",
+		death = "Lay Still",
+		pls = "Lay sideways",
+	}
+}
+
+Config.lit_1 = {		--- coods every anim coords - z up and down - r is rotation - body
+    {anim = "savecouch@",lib = "t_sleep_loop_couch",name = Config.Language.anim.lie_back, x = 0, y = 0.1, z = 1.2, r = 180.0},
+    {anim = "anim@gangops@morgue@table@",lib = "body_search",name = Config.Language.anim.death, x = 0, y = 0.1, z = 1.52, r = 180.0},
+    {anim = "amb@prop_human_seat_chair_food@male@base",lib = "base",name =Config.Language.anim.sit_right, x = 0.0, y = -0.2, z =0.55, r = -90.0},
+    {anim = "amb@prop_human_seat_chair_food@male@base",lib = "base",name = Config.Language.anim.sit_left, x = 0.0, y = -0.2, z =0.55, r = 90.0},
+    {anim = "timetable@jimmy@mics3_ig_15@",lib = "mics3_15_base_jimmy",name = Config.Language.anim.sit_up, x = 0.0, y = 0.15, z =1.52, r = 180.0},
+    {anim = "missheistfbi3b_ig8_2",lib = "cpr_loop_victim",name = Config.Language.anim.convulse, x = 0.0, y = 0.1, z = 1.52, r = 175.0},
+    {anim = "amb@world_human_bum_slumped@male@laying_on_right_side@base",lib = "base",name = Config.Language.anim.pls, x = 0.2, y = 0.1, z = 1.6, r = 100.0},
+}
+
+Config.Lits = {
+	{lit = `stretcher`,          distance_stop = 2.4, anims = Config.lit_1, title = Config.Language.lit_1},
+	{lit = `stryker_M1`,         distance_stop = 2.4, anims = Config.lit_1, title = Config.Language.lit_1},
+	{lit = `stryker_M1_coroner`, distance_stop = 2.4, anims = Config.lit_1, title = Config.Language.lit_1},
+	{lit = `mxpro`,              distance_stop = 2.4, anims = Config.lit_1, title = Config.Language.lit_1},
+	{lit = `stretcher_basket`,   distance_stop = 2.4, anims = Config.lit_1, title = Config.Language.lit_1},
+	{lit = `ferno`,   distance_stop = 2.4, anims = Config.lit_1, title = Config.Language.lit_1},
+	{lit = `fernocoroner`,   distance_stop = 2.4, anims = Config.lit_1, title = Config.Language.lit_1},
+}```
 # Five EMS Menu
 F7 Menu, change keys and add more stretchers and vehicles in the config.lua.
 will spawn compatibile stretchers, you can also change menu location on your screen and the design.
