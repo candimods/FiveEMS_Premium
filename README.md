@@ -1,4 +1,4 @@
-# FiveEMS Premium beta v1.7b [1.7.2]
+# FiveEMS Premium beta 1.7.3
 for Premium Only
 This is an Expansive mod meant to bring realisim to EMS Roleplay. 
 Thanks to the contributing devs without you this mod would not be possible.
@@ -7,7 +7,7 @@ This mod is still in Beta but is in a stage where it can be released to the gene
 To unlock this mod get it here https://store.candimods.com
 also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
 
-:new: features in version 1.7.2
+:new: features in version 1.7.3
 > 1. :fire: License key is now required, one per server
 > 2. menu white list, fix bug where menu opens up in vehicle, improve sync 
 
@@ -24,8 +24,9 @@ Ped placement is buggy this is to be expected if you play lspdfr. working on a f
 <B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
 
 `
-**Install for ESX Servers** remove UI folder and the entries in fxmanifest.lua that refer to the UI, also may need to remove the es_extended reference, now load the items.sql and the items can now be pulled from players item inventory and returned. because inventory is mangaged via this system ESX servers dont get an F7 menu only the stretcher menu and Vehicie UI Menu will work for them. Other install issues that may arrise is menu conflict with item inventory, you can comment out these sections in the config.lua`
+**Install for ESX Servers** For ESX users : You must delete the "ui" folder and the "fxmanifest.lua". Rename the "fxmanifest_esx.lua" into "fxmanifest.lua"`
 
+For non-ESX users : Delete the "fxmanifest_esx.lua"
 2. edit the config.lua and add perms/keys
 3. add ``` ensure FiveEMS``` to your server.cfg
 Please remove any previous versions of this script
