@@ -19,6 +19,7 @@ Ped placement is buggy this is to be expected if you play lspdfr. working on a f
 
 
 # Install 
+Please Install Dpemotes to carry the medical bags included
 
 1. Drag and Drop <b><p color='red'>FiveEMS</p></B> folder fo your resources folder, rename or make sure the folder is named <p color='red'>FiveEMS</p>
 <B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
