@@ -10,6 +10,9 @@ also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
 :new: features in version 1.7.3
 > 1. :fire: License key is now required, one per server
 > 2. menu white list, fix bug where menu opens up in vehicle, improve sync 
+> 3. ESX integration as an option 
+> 4. Autowhitlist ESX_ambulance_job 
+> 5. Better ability to edit menu, text, keys, and more esx integration as an option. 
 
 to update to newest version remove previous install and install new files. clear your cache of FiveEMS files and restart the resource, resource Folder **Must be Named FiveEMS to work** 
 
@@ -74,6 +77,7 @@ Config.Hash = {
 	{hash = `polmav`, detection = 2.0, depth = 1.0, height = -1.0},
 	{hash = `ec135med`, detection = 3.0, depth = -0.5, height = -0.25},
 	{hash = `airambulance`, detection = 3.0, depth = -1.25, height = -0.25},
+	{hash = `e450b`, detection = 2.4, depth = 0.10, height = -0.35},
 	{hash = `h145c`, detection = 3.0, depth = -1.25, height = -0.10},
 }
 Config.ItemsVeh = {
