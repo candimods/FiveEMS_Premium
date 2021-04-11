@@ -266,6 +266,7 @@ https://github.com/candimods/stretchermod/wiki
 4. E450 Ambulance
 5. https://www.lcpdfr.com/downloads/gta5mods/vehiclemodels/26170-2015-2016-ford-f450-superduty-single-cab-ambulance-als-11/
 -  more compaibility to be added later
+6. https://store.candimods.com/package/4215577 EMS Gator and Ambulances included in the pack
 
 Helo Pictured in Screenshots is made by medic909 get it here ==>> https://discord.gg/FqXmby86Fy
 
