@@ -201,7 +201,7 @@ To return items to your inventory select FOLD BED in the menu, this will return 
 10. sit on right side
 11. CPR convulsions  animation
 12. Get out of bed
-13. Fold Bed 
+13. Fold Bed - removes or deletes stretcher
 
 # Vehicle UI
 ` Walking up to a compaitble vehicles displays the following HUD options`
