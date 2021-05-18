@@ -4,6 +4,8 @@ This is an Expansive mod meant to bring realisim to EMS Roleplay.
 Thanks to the contributing devs without you this mod would not be possible.
 This mod is still in Beta but is in a stage where it can be released to the general public for improvements
 
+#Your Key Process is now automatic on store purchase, form is only a formality. 
+
 To unlock this mod get it here https://store.candimods.com
 also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
 
@@ -26,7 +28,9 @@ Please Install Dpemotes to carry the medical bags included
 
 1. Drag and Drop <b><p color='red'>FiveEMS</p></B> folder fo your resources folder, rename or make sure the folder is named <p color='red'>FiveEMS</p>
 <B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
+you may need to rename new_config.lua to config.lua, did this so on updates you dont overide ur old config.lua.
 
+5/18/21 There is a fix for crashing of the server, check out the change log and update the encrypted.lua in the FiveEMS/Server.
 `
 **Install for ESX Servers** For ESX users : You must delete the "ui" folder and the "fxmanifest.lua". Rename the "fxmanifest_esx.lua" into "fxmanifest.lua"`
 
@@ -246,13 +250,25 @@ https://forum.cfx.re/t/dpemotes-1-7-390-emotes-walkingstyles-keybinding-dances-e
 
 https://forum.cfx.re/t/dpemotes-1-7-390-emotes-walkingstyles-keybinding-dances-expressions-and-shared-emotes/843105/111
 
+# Delete Tent  Chat Commands
+/delbluetent
+/delhaztent
+
+# Interaction with Game A.I. Peds
+1. You dan place AI peds on the stretchers, by stepping back and making sure the AI ped is closer to the strether than you are, open the E interaction menu, and select lay back, the AI ped will attach to the stretcher.
+2. Only AI peds who are Alive will attach correctly, deead peds attach weird as showed in the Video, unbale to fix this, you should prob heal the ped or freeze an A.I ped for it to work as intended. 
+
+# Interaction with other Players (FiveM MP)
+1. Other players can place themselves on the stretcher!!
+2. EMS cannot place a Player on the stretcher, only the other Player can put themselves on the stretcher.
+
 # Using DpEmotes 
 to spawn EKG Monitor, Medical bags
 
 Press U to pass out Animation 
-`/e backpack - puts on lucas backpack
-/e breif3 - EKG Monitor in right hand
-/e suitcase - Medical bag in right hand
+1. /e backpack - puts on lucas backpack
+2. /e breif3 - EKG Monitor in right hand
+3/ /e suitcase - Medical bag in right hand
 
 only have one animation per player at a time. player can carry the stretcher with the medical bags on back.`
 
