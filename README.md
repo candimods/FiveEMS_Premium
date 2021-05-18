@@ -9,14 +9,13 @@ This mod is still in Beta but is in a stage where it can be released to the gene
 To unlock this mod get it here https://store.candimods.com
 also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
 
-:new: features in version 1.7.3
+:new: features
 > 1. :fire: License key is now required, one per server
 > 2. menu white list, fix bug where menu opens up in vehicle, improve sync 
-> 3. ESX integration as an option 
+> 3. ESX integration
 > 4. Autowhitlist ESX_ambulance_job 
 > 5. Better ability to edit menu, text, keys, and more esx integration as an option. 
-
-to update to newest version remove previous install and install new files. clear your cache of FiveEMS files and restart the resource, resource Folder **Must be Named FiveEMS to work** 
+> 6. edit the menu and key in the config.lua now !
 
 1. new chat commands  /delhaztent and /delbluetent use this to delete the tents!!
 2. script will now place the closet ped or a.i on the stretcher, for those who want to RP with the ped or on FivePD servers
@@ -25,6 +24,8 @@ Ped placement is buggy this is to be expected if you play lspdfr. working on a f
 
 # Install 
 Please Install Dpemotes to carry the medical bags included
+
+	if you have the SAFD Pack please remove the stretchers that was included in the stream fodler including the props, as they will interfere with the update for FiveEMS 	Props and stretchers.
 
 1. Drag and Drop <b><p color='red'>FiveEMS</p></B> folder fo your resources folder, rename or make sure the folder is named <p color='red'>FiveEMS</p>
 <B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
@@ -35,7 +36,7 @@ you may need to rename new_config.lua to config.lua, did this so on updates you 
 **Install for ESX Servers** For ESX users : You must delete the "ui" folder and the "fxmanifest.lua". Rename the "fxmanifest_esx.lua" into "fxmanifest.lua"`
 
 For non-ESX users : Delete the "fxmanifest_esx.lua"
-2. edit the config.lua and add perms/keys
+2. edit the config.lua and add perms/keys (rename to config.lua)
 3. add ``` ensure FiveEMS``` to your server.cfg
 Please remove any previous versions of this script
 4. Press ```F7``` to open menu, edit controls in config.lua 
