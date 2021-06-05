@@ -32,7 +32,7 @@ Please Install Dpemotes to carry the medical bags included
 you may need to rename new_config.lua to config.lua, did this so on updates you dont overide ur old config.lua.
 
 `
-**Install for ESX Servers** For ESX users : You must delete the "ui" folder and the "fxmanifest.lua". Rename the "fxmanifest_esx.lua" into "fxmanifest.lua"`
+**Install for ESX Servers** For ESX users : Run the items.sql, delete the "ui" folder and the "fxmanifest.lua", and Rename the "fxmanifest_esx.lua" into "fxmanifest.lua"`
 
 For non-ESX users : Delete the "fxmanifest_esx.lua"
 2. edit the config.lua and add perms/keys (rename to config.lua)
