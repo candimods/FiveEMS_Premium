@@ -31,7 +31,6 @@ Please Install Dpemotes to carry the medical bags included
 <B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
 you may need to rename new_config.lua to config.lua, did this so on updates you dont overide ur old config.lua.
 
-5/18/21 There is a fix for crashing of the server, check out the change log and update the encrypted.lua in the FiveEMS/Server.
 `
 **Install for ESX Servers** For ESX users : You must delete the "ui" folder and the "fxmanifest.lua". Rename the "fxmanifest_esx.lua" into "fxmanifest.lua"`
 
