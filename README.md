@@ -16,6 +16,7 @@ also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
 > 4. Autowhitlist ESX_ambulance_job 
 > 5. Better ability to edit menu, text, keys, and more esx integration as an option. 
 > 6. edit the menu and key in the config.lua now !
+> 7. add /treat command to treat and heal players
 
 1. new chat commands  /delhaztent and /delbluetent use this to delete the tents!!
 2. script will now place the closet ped or a.i on the stretcher, for those who want to RP with the ped or on FivePD servers
