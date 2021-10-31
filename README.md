@@ -4,7 +4,7 @@ This is an Expansive mod meant to bring realisim to EMS Roleplay.
 Thanks to the contributing devs without you this mod would not be possible.
 This mod is still in Beta but is in a stage where it can be released to the general public for improvements
 
-#Your Key Process is now automatic on store purchase, form is only a formality. Your order number becomes your key
+#Your Key Process is now automatic on store purchase, A Licensee key and active internet on your game server is now required to run FiveEMS, Your Tebex Transaction Number becomes your key, you can only get an Transaction number by purchasing the script!! This should be automatic upon purchase if not please email us or open a support ticket. Only use your transaction number for FiveEMS specifically. No other numbers will register. 
 
 To unlock this mod get it here https://store.candimods.com
 also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
