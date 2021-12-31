@@ -36,14 +36,14 @@ you may need to rename new_config.lua to config.lua, did this so on updates you 
 **Install for ESX Servers** For ESX users : Run the items.sql, delete the "ui" folder and the "fxmanifest.lua", and Rename the "fxmanifest_esx.lua" into "fxmanifest.lua"`
 
 For non-ESX users : Delete the "fxmanifest_esx.lua"
-2. edit the config.lua and add perms/keys (rename to config.lua)
+2. edit the config.lua and add perms (rename to config.lua)
 3. add ``` ensure FiveEMS``` to your server.cfg
 Please remove any previous versions of this script
 4. Press ```F7``` to open menu, edit controls in config.lua 
 5. walk up to any compatible vehicle or stretcher to get a menu display option.
  enjoy! 
 
-follow for updates!!!
+script is WIP your input is appreciated and your sugestions is what has made this script so expansive. follow for updates!!!
 for support and compatible ambulances and stretchers please visit https://discord.io/candimods
 
 # Config.lua 
