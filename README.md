@@ -39,7 +39,7 @@ script is WIP your input is appreciated and your sugestions is what has made thi
 for support and compatible ambulances and stretchers please visit https://discord.io/candimods
 
 # Soms Rules
-1. Only the Driver, The Parameic with the keys can control the outside controls, doors, and stretcher, the other Paramedic should carry the medical bags.
+1. Only the Driver, The Paramedic with the keys can control the outside controls, doors, and stretcher, the other Paramedic should carry the medical bags.
 2. Tents are props replacements they can be deleted via text commands
 
 # Config.lua 
