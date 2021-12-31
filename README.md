@@ -250,7 +250,7 @@ https://youtu.be/lNZhb-iV0ak
 1. Hazmat Tent Set up -  prop_ld_binbag_01
 WIP looks like this https://www.youtube.com/watch?v=gHTuxDsa438
 2. Blue small tent for smaller operations
-3. For Medical Props use Dp emotees download here 
+3. Ti use included Medical Props use Dp emotees download here 
 https://forum.cfx.re/t/dpemotes-1-7-390-emotes-walkingstyles-keybinding-dances-expressions-and-shared-emotes/843105/111
 
 https://forum.cfx.re/t/dpemotes-1-7-390-emotes-walkingstyles-keybinding-dances-expressions-and-shared-emotes/843105/111
@@ -260,12 +260,14 @@ https://forum.cfx.re/t/dpemotes-1-7-390-emotes-walkingstyles-keybinding-dances-e
 /delhaztent
 
 # Interaction with Game A.I. Peds
-1. You dan place AI peds on the stretchers, by stepping back and making sure the AI ped is closer to the strether than you are, open the E interaction menu, and select lay back, the AI ped will attach to the stretcher.
-2. Only AI peds who are Alive will attach correctly, deead peds attach weird as showed in the Video, unbale to fix this, you should prob heal the ped or freeze an A.I ped for it to work as intended. 
+1. You can place AI peds on the stretchers, by stepping back and making sure the AI ped is closer to the strether than you are, open the E interaction menu, and select lay back, the AI ped will attach to the stretcher.
+2. Only AI peds who are Alive will attach correctly, dead peds attach weird as showed in the Video, unbale to fix this, you should prob heal the ped or freeze an A.I ped for it to work as intended. 
+3. You can now use /treat to heal a dead ped and freeze them for transport
 
 # Interaction with other Players (FiveM MP)
-1. Other players can place themselves on the stretcher!!
+1. Only other players can place themselves on the stretcher!!
 2. EMS cannot place a Player on the stretcher, only the other Player can put themselves on the stretcher.
+3. The player on the stretcher can toggle an animation such as cardiac arrest cpr, or sitting up via the ```E``` interaction menu
 
 # Using DpEmotes 
 to spawn EKG Monitor, Medical bags
@@ -291,7 +293,7 @@ https://github.com/candimods/stretchermod/wiki
 8. e450 ambulance https://store.candimods.com/package/4378187
 9. more on store.candimods.com
 
-Helo Pictured in Screenshots is made by medic909 get it here ==>> https://discord.gg/FqXmby86Fy
+More Helos by medic909 get it here ==>> https://discord.gg/FqXmby86Fy
 
 # EMS Gator and CoTrailer
 1. Please use a comparable script to attach the gator to the trailer, or it will fly offf when you drive away
