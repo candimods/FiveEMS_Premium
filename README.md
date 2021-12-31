@@ -1,10 +1,10 @@
-# FiveEMS Premium beta 1.8 ReadMe
+# FiveEMS Premium beta 1.9.02 ReadMe
 for Premium Only
 This is an Expansive mod meant to bring realisim to EMS Roleplay. 
 Thanks to the contributing devs without you this mod would not be possible.
 This mod is still in Beta but is in a stage where it can be released to the general public for improvements
 
-#Your Key Process is now automatic on store purchase, A Licensee key and active internet on your game server is now required to run FiveEMS, Your Tebex Transaction Number becomes your key, you can only get an Transaction number by purchasing the script!! This should be automatic upon purchase if not please email us or open a support ticket. Only use your transaction number for FiveEMS specifically. No other numbers will register. 
+#Your file will be delivered to keymaster assests tab, script will only work on servers attached to that keymaster account
 
 To unlock this mod get it here https://store.candimods.com
 also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
@@ -269,9 +269,9 @@ to spawn EKG Monitor, Medical bags
 Press U to pass out Animation 
 1. /e backpack - puts on lucas backpack
 2. /e breif3 - EKG Monitor in right hand
-3/ /e suitcase - Medical bag in right hand
+3. /e suitcase - Medical bag in right hand
 
-only have one animation per player at a time. player can carry the stretcher with the medical bags on back.`
+Player can only have one animation per player at a time. player can carry the stretcher with the medical bags on back.`
 
 # Compatible vehicles:
 Check out the wiki page for more information on how to make your mod compatible
@@ -284,7 +284,8 @@ https://github.com/candimods/stretchermod/wiki
 5. https://www.lcpdfr.com/downloads/gta5mods/vehiclemodels/26170-2015-2016-ford-f450-superduty-single-cab-ambulance-als-11/
 -  more compaibility to be added later
 6. https://store.candimods.com/package/4215577 EMS Gator and Ambulances included in the pack
-7. e450 ambulance https://store.candimods.com/package/4378187
+8. e450 ambulance https://store.candimods.com/package/4378187
+9. more on store.candimods.com
 
 Helo Pictured in Screenshots is made by medic909 get it here ==>> https://discord.gg/FqXmby86Fy
 
