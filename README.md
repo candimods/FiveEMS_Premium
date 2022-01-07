@@ -14,6 +14,20 @@ also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
 2. script will now place the closet ped or a.i on the stretcher, for those who want to RP with the ped or on FivePD servers
 Ped placement is buggy this is to be expected if you play lspdfr. working on a fix for this.
 
+# Troubleshooting FiveM Escrow Issues
+Common Errors
+Note that you need server version 4752 or above to run resources using this feature.
+
+Error parsing script / Failed to load script
+Your server artifacts are likely outdated. Update your server to version 4752 or above.
+
+You lack the required entitlement to use <resource>
+Try restarting your server and make sure your server license key is correct. If you bought the resource on the wrong account, you can transfer it to another account on keymaster.
+
+Failed to verify protected resource
+Files were possibly corrupted during transfer. Ensure hidden files are copied; the .fxap file in a protected resource must be included. Some FTP programs skip these files.
+
+On Zap you must put your server key in your zap settings for this script to work, some zap servers also need argentum to work, contact Fivem to clarify this. 
 
 # Install 
 Please Install Dpemotes to carry the medical bags included
