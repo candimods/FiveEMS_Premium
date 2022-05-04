@@ -10,9 +10,7 @@ To unlock this mod get it here https://store.candimods.com
 also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
 
 :new: features
-1. new chat commands  /delhaztent and /delbluetent use this to delete the tents!!
-2. script will now place the closet ped or a.i on the stretcher, for those who want to RP with the ped or on FivePD servers
-Ped placement is buggy this is to be expected if you play lspdfr. working on a fix for this.
+1. optimised for esx
 
 # Troubleshooting FiveM Escrow Issues
 Common Errors
