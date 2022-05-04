@@ -57,7 +57,7 @@ for support and compatible ambulances and stretchers please visit https://discor
 2. Tents are props replacements they can be deleted via text commands
 
 # Config.lua 
-Set up your config, input your license key, whitelist ids, and set wheather you want to use perms or set the script to public use.
+Set up your config, input your license key, whitelist ids, and set wheather you want to use perms or set the script to public use. You can now diable treat command and add stretcher offsets for left and right.
 ```lua
 Config              = {} -- nothing goes here
 Config.Ver = 'Loaded version 1.7a FiveEMS - Developed and Licensed by Candi Mods Developpement' -- don't edit this 
@@ -72,11 +72,11 @@ Config.WhiteListOnly = {
 
 Config.WhiteList     = {
   ['ip:127.0.0.1'] = true,
-  ['licence:123']  = true,
-  ['xbl:123']      = true,
-  ['live:123']     = true,
-  ['discord:123']  = true,
-  ['steam:123']    = true,
+  ['licence:123456789']  = true,
+  ['xbl:123456879']      = true,
+  ['live:123456789']     = true,
+  ['discord:123456789']  = true,
+  ['steam:123456789']    = true,
 }
 ```
 # Adding More Vehilces and Editing Keys
