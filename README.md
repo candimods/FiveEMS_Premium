@@ -67,9 +67,10 @@ Please remove any previous versions of this script
 script is WIP your input is appreciated and your sugestions is what has made this script so expansive. follow for updates!!!
 for support and compatible ambulances and stretchers please visit https://discord.io/candimods
 
-# Soms Rules
+# Some Rules
 1. Only the Driver, The Paramedic with the keys can control the outside controls, doors, and stretcher, the other Paramedic should carry the medical bags.
 2. Tents are props replacements they can be deleted via text commands
+3. Script limits one stretcher per player to prevent mass spawning of stretchers
 
 # Config.lua 
 Set up your config, input your license key, whitelist ids, and set wheather you want to use perms or set the script to public use. You can now diable treat command and add stretcher offsets for left and right.
