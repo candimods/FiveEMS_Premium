@@ -21,6 +21,23 @@ Your server artifacts are likely outdated. Update your server to version 4752 or
 
 You lack the required entitlement to use <resource>
 Try restarting your server and make sure your server license key is correct. If you bought the resource on the wrong account, you can transfer it to another account on keymaster.
+There could be a several reasons why this is happening
+You have bought the script with other fivem account than the server's owner is
+The server needs to be restarted
+Your OS time may be ahead/behind of real time.
+
+I have bought the script with annother account (1)
+If this is the case, check to this guide Transfer resource guide.
+
+I have not restarted the server
+It feels like there is no need to explain this. Restart it!
+
+Operation system doesn't have the right time?
+You just need to open this website: https://time.is/ and just choose where the server is located, and if it will be ahead/behind more than one minute please correct this issue unless the problem won't be solved.
+ 
+
+
+--------------------------------
 
 Failed to verify protected resource
 Files were possibly corrupted during transfer. Ensure hidden files are copied; the .fxap file in a protected resource must be included. Some FTP programs skip these files.
@@ -30,7 +47,7 @@ On Zap you must put your server key in your zap settings for this script to work
 # Install 
 Please Install Dpemotes to carry the medical bags included
 
-	if you have the SAFD Pack please remove the stretchers that was included in the stream fodler including the props, as they will interfere with the update for FiveEMS 	Props and stretchers.
+if you have the SAFD Pack please remove the stretchers that was included in the stream fodler including the props, as they will interfere with the update for FiveEMS 	Props and stretchers.
 
 1. Drag and Drop <b><p color='red'>FiveEMS</p></B> folder fo your resources folder, rename or make sure the folder is named <p color='red'>FiveEMS</p>
 <B>FOLDER MUST BE NAMED FiveEMS or it wont work!!!</B>
