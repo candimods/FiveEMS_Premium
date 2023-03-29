@@ -1,4 +1,6 @@
 # FiveEMS Premium beta 1.9.02 ReadMe
+# We now have  FiveEMS for  ESX and NON ESX versions
+
 for Premium Only
 This is an Expansive mod meant to bring realisim to EMS Roleplay. 
 Thanks to the contributing devs without you this mod would not be possible.
