@@ -1,4 +1,4 @@
-# FiveEMS Premium beta 1.9.02 ReadMe
+# FiveEMS Premium ReadMe
 # We now have  FiveEMS for  ESX and NON ESX versions
 
 for Premium Only
