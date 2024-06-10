@@ -8,6 +8,7 @@ This mod is still in Beta but is in a stage where it can be released to the gene
 
 #Your file will be delivered to keymaster assests tab, script will only work on servers attached to that keymaster account
 
+discord.candimods.com
 To unlock this mod get it here https://store.candimods.com
 also check out the Wiki https://github.com/candimods/FiveEMS_Premium/wiki
 
